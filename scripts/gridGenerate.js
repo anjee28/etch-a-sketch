@@ -43,7 +43,7 @@ function gridGenerate() {
     elements.forEach((div) => {
     
     
-        div.addEventListener('click', () => {
+        div.addEventListener('mouseenter', () => {
             div.style.background = 'rgb(' + red + ', ' + blue + ', ' + green + ')';
             rgb();
             console.log('r ' + red);
@@ -69,32 +69,32 @@ function rgb() {
 
     if (red === 250) {
         if (green === 250) {
-            blue += 50;
-            red -=50;
+            blue += 10;
+            red -=10;
         }
         else {
-            green +=50;
-            blue -=50;
+            green +=10;
+            blue -=10;
         }
     }
     else if (green === 250) {
         if (blue === 250) {
-            red += 50;
-            green -=50;
+            red += 10;
+            green -=10;
         }
         else {
-            blue +=50;
-            red -=50;
+            blue +=10;
+            red -=10;
         }
     }
     else if (blue === 250) {
         if (red === 250) {
-            green += 50;
-            blue -=50;
+            green += 10;
+            blue -=10;
         }
         else {
-            red +=50;
-            green -=50;
+            red +=10;
+            green -=10;
         }
     }
 }
