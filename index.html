@@ -1,33 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script defer src="./scripts/gridGenerate.js"></script>
-        <link rel="stylesheet" href="./css/style.css"> -
-        <title>Skeeetch</title>
-    </head>
-    <body>
-        <div class="containerMain">
-            <div class="header">
-                <p>Etch-a-Skeeetch</p>
-            </div>
-            <div class="containerParent">
-                <div class="generate">
-                    <div class="buttons">
-                        <button id ="gridClearBtn" onclick="gridClear()">Clear Grid</button>
-                        <button  id="gridGenerateBtn" onclick="gridGenerate()">Generate Grid</button>
-                    </div>
-                    <div class="textbox">
-                        <p>Grid Size (1-100):</p>
-                        <input type="textbox" id="gridSize" placeholder="16">
-                    </div>        
-                </div>
-                <div class="padContainerParent" id="padContainerParent">
-
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./scripts/gridGenerate.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Skeeetch</title>
+  </head>
+  <body>
+    <div class="containerMain">
+      <div class="header">
+        <p>Etch-a-Skeeetch</p>
+      </div>
+      <div class="containerParent">
+        <div class="generate">
+          <div class="buttons">
+            <button id="gridClearBtn" onclick="gridClear()">Clear Grid</button>
+            <button id="gridGenerateBtn" onclick="gridGenerate()">
+              Generate Grid
+            </button>
+          </div>
+          <div class="textbox">
+            <p>Grid Size (1-100):</p>
+            <input type="textbox" id="gridSize" placeholder="16" />
+          </div>
         </div>
-    </body>
+        <div class="padContainerParent" id="padContainerParent"></div>
+      </div>
+    </div>
+  </body>
 </html>

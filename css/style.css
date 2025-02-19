@@ -1,102 +1,101 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: fixed wheat;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: fixed wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 div {
-   
 }
 
 .header {
-    font-size: 42px;
-    font-weight: 900;
-    text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+  text-align: center;
 }
 
 .containerMain {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2%;
-    width: 80%;
-    padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  width: 80%;
+  padding: 16px;
 }
 
 .containerParent {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 16px;
-    border: 3px solid white;
-    border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 30px;
 }
 
 .row {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    border: 0;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .column {
-    width: 100%;
-    box-sizing: border-box;
-    border: 1px solid grey;
-    border-style: dashed;
-    border-right-color: white;
-    border-bottom-color: white;
-    margin: 0;
-    padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-style: dashed;
+  border-right-color: white;
+  border-bottom-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .column:hover {
-    background: grey;
+  background: grey;
 }
 
 .padContainerParent {
-    width: 450px;
-    height: 450px;
-    border: 2px solid black;
-    border-radius: 16px;
-    background: white;
+  width: 450px;
+  height: 450px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background: white;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 .generate {
-    width: 250px;
-    margin-right: 8px;
-    padding: 0;
+  width: 250px;
+  margin-right: 8px;
+  padding: 0;
 }
 
 .buttons {
-    padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 0;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
 }
 
 .buttons button {
-    width: 48%;
-    height: 50px;
+  width: 48%;
+  height: 50px;
 }
 
 .textbox {
-    padding: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0;
 }
 
 #gridSize {
-    width: 100%;
+  width: 100%;
 }
